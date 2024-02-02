@@ -2,7 +2,7 @@ import Footer from '@/components/Footer/Footer';
 import { Navbar } from '@/components/Navbar/Navbar';
 import TitleComponent from '@/components/TitleComponent';
 
-const about = () => {
+const About = () => {
     return (
         <div className='dark:bg-black dark:text-gray-200 min-h-screen'>
             <TitleComponent title={`About`} />
@@ -54,4 +54,4 @@ const about = () => {
     )
 }
 
-export default about
+export default About

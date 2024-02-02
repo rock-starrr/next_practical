@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar/Navbar";
 import TitleComponent from "@/components/TitleComponent";
 import { useSelector } from "react-redux"
 
-export default function Home() {
+function Home() {
   const { isLoading, role } = useSelector((state) => state.auth)
 
   return (
@@ -30,3 +30,5 @@ export default function Home() {
   )
 
 }
+
+export default Home

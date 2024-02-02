@@ -2,7 +2,7 @@ import Footer from '@/components/Footer/Footer';
 import { Navbar } from '@/components/Navbar/Navbar';
 import TitleComponent from '@/components/TitleComponent';
 
-const services = () => {
+const Services = () => {
     return (
         <>
             <TitleComponent title={`Services`} />
@@ -144,4 +144,4 @@ const services = () => {
     )
 }
 
-export default services
+export default Services

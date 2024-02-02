@@ -4,7 +4,7 @@ import TitleComponent from '@/components/TitleComponent';
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 
-const contact = () => {
+const Contact = () => {
   const [inputData, setInputData] = useState({ fullName: '', email: '', phone: '', massage: '' })
 
   return (
@@ -144,4 +144,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
